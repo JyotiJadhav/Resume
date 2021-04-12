@@ -1,0 +1,225 @@
+/*!
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.intro-header {
+    padding-top: 50px;
+    /*padding-bottom: 50px;*/
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    padding-top: 10%;
+    padding-bottom: 26%;
+    /*height: 600px;*/
+}
+
+@media(max-width:) {
+    .intro-message {
+    }
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-social-buttons i {
+    font-size: 80%;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        height: 600px;
+    }
+
+        .intro-message > h1 {
+            font-size: 3em;
+        }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+        ul.intro-social-buttons > li:last-child {
+            margin-bottom: 0;
+        }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 35px 0;
+    background-color: #ffffff;
+}
+
+.content-section-b {
+    padding: 35px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    /*margin-bottom: 30px;*/
+    text-align: center;
+}
+
+.section-heading-spacer {
+    float: center;
+    width: auto;
+    background-color: #F05F40;
+    /*border-top: 3px solid #e7e7e7;*/
+}
+
+.banner-heading-spacer {
+    float: center;
+    width: auto;
+    color: #f8f8f8;
+    background-color: white;
+    /*border-top: 3px solid #e7e7e7;*/
+}
+
+.banner {
+    /*padding: 100px 0;*/
+    padding: 30px 0;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+    .banner h2 {
+        /*margin: 0;*/
+        /*text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);*/
+        /*font-size: 1em;*/
+        text-align: center;
+        float: center;
+        width: auto;
+    }
+
+    .banner ul {
+        margin-bottom: 0;
+    }
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+        ul.banner-social-buttons > li:last-child {
+            margin-bottom: 0;
+        }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+/*#customNav{
+  min-height:80px;
+}*/
+
+.navbar-brand {
+    /*display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 2.25rem;
+    line-height: inherit;
+    white-space: nowrap;*/
+    font: normal normal normal 30px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    transition: color 0.4s ease 0s;
+    color: #F05F40 !important;
+    display: inline-block;
+    margin: calc(-1 * 0px) 0px 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+
+.style-irn7pfjblabel {
+    font: normal normal normal 30px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    transition: color 0.4s ease 0s;
+    color: #182153;
+    display: inline-block;
+    margin: calc(-1 * 0px) 0px 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+    padding: 0 10px;
+    color: #182153;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    transition: color 0.4s ease 0s;
+}
